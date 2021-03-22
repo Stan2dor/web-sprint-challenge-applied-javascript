@@ -41,8 +41,8 @@ Your must complete all the following steps:
 
 - [x] Step 0 is to link `src/index.js` to the `src/index.html` file using a script tag.
 - [x] Steps 1 and 2 are explained inside the `src/components/header.js` file.
-- [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
-- [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
+- [x] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
+- [x] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
 
@@ -75,17 +75,17 @@ There are two possible ways to submit this project to Canvas. Lambda Staff will 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
-The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page. 
-The DOM is built as a data structure known as a ‘Tree’, because parent elements have nested children elements (or leaves). As with physical trees, we can follow branches of the tree to get to the exact leaf (or leaves) that we want to access. Each branch of our DOM tree can be it's own tree. 
+    The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page. 
+    The DOM is built as a data structure known as a ‘Tree’, because parent elements have nested children elements (or leaves). As with physical trees, we can follow branches of the tree to get to the exact leaf (or leaves) that we want to access. Each branch of our DOM tree can be it's own tree. 
 
 2. What is an event?
-JavaScript's interaction with HTML is handled through events that occur when the user or the browser manipulates a page. 
+    JavaScript's interaction with HTML is handled through events that occur when the user or the browser manipulates a page. 
 
 3. What is an event listener?
-An event listener is a procedure in JavaScript that waits for an event to occur.
+    An event listener is a procedure in JavaScript that waits for an event to occur.
 
 4. Why would we convert a NodeList into an Array?
-NodeLists are actually not a JavaScript API, but a browser API. NodeLists are array-like but don't feature many of the methods provided by the Array, like forEach, map, filter, etc.  
+    NodeLists are actually not a JavaScript API, but a browser API. NodeLists are array-like but don't feature many of the methods provided by the Array, like forEach, map, filter, etc.  
 
 5. What is a component?
-Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML via a render() function.
+    Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML via a render() function.

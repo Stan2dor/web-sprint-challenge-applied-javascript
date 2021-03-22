@@ -46,7 +46,7 @@ const headerAppender = (selector) => {
   //
   document
   .querySelector(selector)
-  .appendChild(Header("Stan Tudor", "March 21st, 2021", "20 degrees"));
+  .appendChild(Header("Lambda Times", "March 21st, 2021", "20 degrees"));
 };
 
 export { Header, headerAppender }
