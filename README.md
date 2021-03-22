@@ -22,18 +22,18 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 #### Repository Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: `git push origin <firstName-lastName>`.
 
 #### Launching the App
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to the URL indicated in the output of the `npm start` command.
+- [x] Navigate to the root of the project with your command line.
+- [x] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [x] Run `npm start` to compile the project and serve it.
+- [x] Navigate Chrome to the URL indicated in the output of the `npm start` command.
 
 ### B - Project Requirements
 
@@ -75,7 +75,17 @@ There are two possible ways to submit this project to Canvas. Lambda Staff will 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page. 
+The DOM is built as a data structure known as a ‘Tree’, because parent elements have nested children elements (or leaves). As with physical trees, we can follow branches of the tree to get to the exact leaf (or leaves) that we want to access. Each branch of our DOM tree can be it's own tree. 
+
 2. What is an event?
+JavaScript's interaction with HTML is handled through events that occur when the user or the browser manipulates a page. 
+
 3. What is an event listener?
+An event listener is a procedure in JavaScript that waits for an event to occur.
+
 4. Why would we convert a NodeList into an Array?
+NodeLists are actually not a JavaScript API, but a browser API. NodeLists are array-like but don't feature many of the methods provided by the Array, like forEach, map, filter, etc.  
+
 5. What is a component?
+Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML via a render() function.
